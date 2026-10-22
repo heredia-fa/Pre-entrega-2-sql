@@ -16,7 +16,7 @@ Esquema base de un proyecto retail en **PostgreSQL**, con las tablas `clientes`,
    CREATE DATABASE retail_project;
 ```
 
-2. Conectarse a la base `retail_project` y ejecutar el script `script.sql`:
+2. Conectarse a la base `retail_project` y ejecutar el script `pre-entrega-2.sql`:
 
    **Opción A: pgAdmin**
    - Clic derecho sobre `retail_project` y abrir el Query Tool.
@@ -25,7 +25,7 @@ Esquema base de un proyecto retail en **PostgreSQL**, con las tablas `clientes`,
    **Opción B: terminal con psql**
 
 ```
-   psql -U tu_usuario -d retail_project -f pre-entrega-2.sql.sql
+   psql -U tu_usuario -d retail_project -f pre-entrega-2.sql
 ```
 
 ## Contenido del script
